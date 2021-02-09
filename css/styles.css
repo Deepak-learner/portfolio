@@ -129,17 +129,17 @@ em{
   border-radius: 10%;
 }
 
-/* Features Section */
+/* Project Section */
 
-#features {
+#project{
   position: relative;
 }
 
-.feature-title {
+.project-title {
   font-size: 1.5rem;
 }
 
-.feature-box {
+.project-box {
   padding: 4.5%;
 }
 
@@ -152,24 +152,21 @@ em{
   color: #ff4c68;
 }
 
+
+
+/* Experience Section */
 #experience{
   background-color:#383e56;width:100% ;
 }
 
-/* Testimonial Section */
-
-#testimonials {
-  background-color:white;
-}
-
-.testimonial-text {
+.experience-text {
   padding: 1% 10%;
   font-size: 2rem;
   line-height: 1.5;
   color:white;
 }
 
-.testimonial-image {
+.experience-image {
   width: 10%;
   border-radius: 50%;
   margin: 30px;
@@ -186,35 +183,15 @@ em{
   margin: 20px 20px 50px;
 }
 
-/* Pricing Section */
-
-#pricing {
-  padding: 100px;
+#btn{
+  margin-left: 0px;
 }
 
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
 
-.pricing-column {
-  padding: 3% 2%;
-}
 
 .ExpName{
   color: tomato ; text-align: left;
 
-}
-
-/* CTA Section */
-
-
-/* Footer Section */
-
-
-.social-icon {
-  size: 100px;;
-  margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
@@ -223,7 +200,7 @@ em{
     text-align: center;
   }
 
-  .testimonial-text{
+  .experience-text{
     font-size: 1.5em;
   }
 
@@ -239,7 +216,7 @@ em{
     text-align: center;
   }
 
-  .testimonial-image {
+  .experience-image {
     width: 20%;
     border-radius: 50%;
     margin-bottom: 30px;

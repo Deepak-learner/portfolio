@@ -30,22 +30,17 @@
       <!-- Nav Bar -->
 
       <nav class="navbar navbar-expand-lg navbar-dark">
-
-
-
-
-
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#features">Projects</a>
+              <a class="nav-link" href="#project">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#cta">Contact Me</a>
+              <a class="nav-link" href="#contact">Contact Me</a>
             </li>
           </ul>
 
@@ -60,7 +55,7 @@
         <div class="col-lg-6">
           <img class="hiiImage" src="images\tenor.gif">
           <h1 class="big-heading">Hii , I'm Deepak , Full-Stack Developer </h1>
-          <button type="button" class="btn btn-dark btn-lg download-button"> Resume </button>
+          <a id="btn" style="background-color: DodgerBlue ; padding:10px 30px 10px 30px;" href="https://drive.google.com/file/d/1_2zLxxo7VCKFpU4_Mh4bYhHpdfa71nU6/view?usp=sharing" target="_blank" class="btn btn-info" role="button">Resume</a>
 
         </div>
 
@@ -75,119 +70,103 @@
   </section>
 
 
-  <!-- Features -->
+  <!-- Projects -->
 
-  <section class="color-section" id="features">
+  <section class="color-section" id="project">
     <h2  class="big-heading" style="margin-top: 70px; margin-bottom: 0px; font-family: Montserrat-Black;
-
     line-height: 1.5;" >Projects and Skills</h2>
     <div class="container-fluid">
 
       <div class="row">
 
-        <div class="feature-box col-lg-4">
+        <div class="project-box col-lg-4">
           <img style="width: 40%;" src="images\320px-React-icon.svg.png" alt="">
-          <h3 class="feature-title">React Developer.</h3>
+          <h3 class="project-title">React Developer.</h3>
           <p>Keeper-App : One can keep his daily notes here</p>
         </div>
 
-        <div class="feature-box col-lg-4">
+        <div class="project-box col-lg-4">
           <img style="width: 60%;"  src="images\nodefinal.png">
-          <h3 class="feature-title">Express and Nodejs</h3>
+          <h3 class="project-title">Express and Nodejs</h3>
           <p>Daily Journal : One can write journal here</p>
         </div>
 
-        <div class="feature-box col-lg-4">
+        <div class="project-box col-lg-4">
           <img style="width: 45%;" src="images\logo-java-brand-font-product-css-png-clip-art.png" alt="">
-          <h3 class="feature-title">Timetable Generator</h3>
+          <h3 class="project-title">Timetable Generator</h3>
           <p>One need to enter Course code and Slot , It will make timetable for you.</p>
         </div>
 
-      <div  class="feature-box col-lg-4">
+      <div  class="project-box col-lg-4">
         <img style="width: 40%;" src="images\197-1977607_svg-mongodb-logo-png.png" alt="">
-        <h3 class="feature-title"> Mongoose.</h3>
+        <h3 class="project-title"> Mongoose.</h3>
         <p>Create a sign up page for newsletter subscribers and user informataion is stored in mailchimp</p>
       </div>
-      <div  class="feature-box col-lg-4">
+      <div  class="project-box col-lg-4">
         <img style="width: 40%;" src="images\c-logo-png-clip-art.png"  alt="">
-        <h3 class="feature-title"> C++ Language </h3>
+        <h3 class="project-title"> C++ Language </h3>
         <p>Create a snake game .</p>
       </div>
-      <div  class="feature-box col-lg-4">
+      <div  class="project-box col-lg-4">
         <img style="width: 40%;" src="images\sql-database-icon-logo-design-ui-ux-app-orange-inscription-shadow-96841969.jpg" alt="">
-        <h3 class="feature-title">SQL</h3>
+        <h3 class="project-title">SQL</h3>
         <p>Collage Project : Create database for Stock Management Systeam.</p>
       </div>
-
-
-
     </div>
   </section>
 
 
-  <!-- Testimonials -->
+  <!-- Experience -->
 
-  <section class="white-section" id="experience" >
+  <section style="height:800px" class="white-section" id="experience" >
     <h1 style="padding-top: 30px; font-family: Montserrat-Black;
 
     line-height: 1.5; color:white;" >Experience</h1>
-    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+    <div id="experience-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active container-fluid">
           <h1 class="ExpName"> Geeks For Geeks </h1>
-          <h2 class="testimonial-text" > <br> I work as a technical content writer in geeks for geeks. Generally I write articles on topic like Web development , Algorithms etc.</h2></br>
+          <h2 class="experience-text" > <br> I work as a technical content writer intern in geeks for geeks. Generally I write articles on topic like Web development(react js, javascript ,html ,css , node js etc) , Algorithms etc.</h2></br>
 
-          <img class="testimonial-image" src="images\download3.png" alt="gfg-profile">
-          <em style="text-align: center;"> A computer science portal for geeks, Noida </em>
-
+          <img class="experience-image" src="images\download3.png" alt="gfg-profile">
+          <em style="text-align: center;margin-bottom:0px"> A computer science portal for geeks, Noida </em>
+          <h3 style="margin-top:0px ; color:white" > <br> View my articles published on geeks for geeks portal : </h3>
+          <a style="background-color: DodgerBlue ; padding:10px 30px 10px 30px;" href="https://auth.geeksforgeeks.org/user/deepak710agarwal/articles" target="_blank" class="btn btn-info" role="button">Articles</a>
         </div>
 
         <div class="carousel-item container-fluid">
           <h1 class="ExpName"> Humourbaba </h1>
-          <h2 class="testimonial-text" > <br> I Work as a Full-Stack Developer in a Start-up name Humourbaba.For Front-end development , I worked with React js , Bootstrap , CSS and for back-end development , I worked with Node js , Express and mongodb.  </h2>
-          <img class="testimonial-image" src="images\humourbaba.png" alt="web-profile">
+          <h2 class="experience-text" > <br> I Work as a Full-Stack Developer intern in a Start-up name Humourbaba . For Front-end development , I worked with React js , Bootstrap and Css to make their admin panel  and for back-end development , I worked with Node js , Express ,Mongoose and Mongodb.  </h2>
+          <img class="experience-image" src="images\humourbaba.png" alt="web-profile">
           <em style="text-align: center;">  Apparel and Fashion , Banglore </em>
 
         </div>
         <div class="carousel-item container-fluid">
           <h1 class="ExpName"> Bulls and Bears </h1>
-          <h2 class="testimonial-text"><br>I am techinal head of this club .I organize and manage various events at collage level.</h2>
-          <img class="testimonial-image" style="border-radius: 80%;" src="images\club.png" alt="club-profile">
+          <h2 class="experience-text"><br>I am techinal head of this club . I have taken various sessions on tech topic like react js , node js etc for juniors . I also organize and manage various bnb club events at collage level.</h2>
+          <img class="experience-image" style="border-radius: 50%;" src="images\club.png" alt="club-profile">
           <em>  VIT Finanace Club ,VIT,Vellore</em>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#experience-carousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
       </a>
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#experience-carousel" role="button" data-slide="next">
     <span class="carousel-control-next-icon"></span>
       </a>
     </div>
 
   </section>
 
+  <!-- Contact sectoion  -->
 
-  <!-- Press -->
-
-
-
-
-  <!-- Pricing -->
-
-
-
-  <!-- Call to Action -->
-
-  <section style="background-color: whitesmoke ;width: 100%;"  class="white-section" id="cta">
-
+  <section style="background-color: whitesmoke ;width: 100%;"  class="white-section" id="contact">
     <div class="container-fluid">
-
       <h2  style="margin-top: 30px";>If you can think it , I can web it</h2>
-
-      <button id="contactButton" class="download-button btn btn-lg brn-light" style="background-color: teal;" type="button" ><i class="fab fa-google-play"></i> Contact ME </button>
+      <button id="contactButton" class="download-button btn btn-lg brn-light" style="background-color: DodgerBlue; color:white " type="button" ><i class="fas fa-envelope"></i> Contact ME </button>
       <section >
 
-        <form id="form" action="" method="post" class="formStyle"  enctype="text/plain">
+        <form onSubmit="myfunction()" id="form" action="mailto:deepak710agarwal@gmail.com" method="post" class="formStyle"  enctype="text/plain">
             <div class="form-group" >
                 <input type="text" name="Name" class="form-control" placeholder="Your Name *" value="" required=""/>
             </div>
@@ -198,23 +177,17 @@
               <textarea name="Message" style="width: 50%;"  rows="4" cols="50" placeholder="Enter your meassage here"></textarea>
             </div>
             <div class="form-group">
-                <input type="submit"  name="submit" class="btnSubmit btn-block" value="Submit" />
+                <input id ="alert" type="submit"   class="btnSubmit btn-block" />
             </div>
         </form>
-
-
-</section>
+      </section>
       <div class="container-fluid">
-        <i class="social-icon fab fa-facebook-f"> </i>
-        <i class="social-icon fab fa-twitter"></i>
-        <i class="social-icon fab fa-instagram"></i>
-        <i class="social-icon fas fa-envelope"></i>
         <p style="color: black;">© Copyright 2018 Deepak</p>
       </div>
     </div>
   </section>
 
-
+<!-- javascript code -->
   <script type="text/javascript">
     $("#contactButton").click(function(){
         $("#form").toggle(1000);
@@ -225,20 +198,15 @@
     {
       $(this).css("background-color", "lightblue");
     });
+
     $("input").blur(function()
     {
       $(this).css("background-color", "lightgreen");
     });
 
-
-
-
-
-
-
+    function myfunction() {
+            alert("Press send button in your mail and yep I will get your message . I will contact you soon!");
+}
 </script>
-
-
 </body>
-
 </html>
