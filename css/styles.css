@@ -196,6 +196,11 @@ em{
 
 @media (max-width: 1028px) {
 
+  #hii{
+    border-radius :70%;
+    margin-bottom: 20px;
+  }
+
   #title {
     text-align: center;
   }
@@ -246,9 +251,4 @@ em{
 }
 .form-group{
   margin: 30px;
-}
-
-#hii{
-  border-radius :70%;
-  margin-bottom: 20px;
 }
